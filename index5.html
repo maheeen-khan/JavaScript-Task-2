@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            background-color: rgb(98, 17, 123);
+            text-align: center;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    
+    <script>
+        //Celsius to Fahrenheit
+        var celcius = +prompt("Enter Temperature in Celsius : ");
+
+        var to_fahrenheit = (celcius * 9/5) + 32;
+
+        document.write("<h1>Temperature Converter:</h1><hr>");
+        document.write("Celsius to Fahrenheit : ", to_fahrenheit);
+
+        // Fahrenheit to Celsius
+        var fahrenheit = +prompt("Enter Temperature in Fahrenheit : ");
+
+        var to_celsius = (fahrenheit - 32) * 5/9;
+
+        document.write("<br><br>Celsius to Celsius : ", to_celsius);
+
+
+    </script>
+</body>
+</html>
