@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <style>
+    *{
+        background-color: palevioletred;
+    }
+    body{
+        text-align: center;
+    }
+   </style>
+</head>
+<body>
+    <!-- 1. Write a program that take two numbers & add them in a
+new variable. Show the result in your browser. -->
+<!-- 2. Repeat task1 for subtraction, multiplication, division &
+modulus. -->
+    
+    <script>
+        
+        var a = +prompt("Enter 1st number : ");
+        var b = +prompt("Enter 2nd number : ");
+        var add = a + b;
+        var sub = a - b;
+        var mul = a * b;
+        var div = a / b;
+        var mod = a % b;
+
+
+        document.write("<h1>"+"Addition"+"</h1>");
+        document.write("\nThe sum of  " + a + " and " + b + " is : " + add );
+
+        document.write("<hr><h1>"+"Subtraction"+"</h1>");
+        document.write("\nThe sum of  " + a + " and " + b + " is : " + sub );
+
+        document.write("<hr><h1>"+"Multiplication"+"</h1>");
+        document.write("\nThe sum of  " + a + " and " + b + " is : " + mul );
+
+        document.write("<hr><h1>"+"Division"+"</h1>");
+        document.write("\nThe sum of  " + a + " and " + b + " is : " + div );
+
+        document.write("<hr><h1>"+"Modulus"+"</h1>");
+        document.write("\nThe sum of  " + a + " and " + b + " is : " + mod );
+    </script>
+</body>
+</html>
